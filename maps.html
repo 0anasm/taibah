@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Kids' Youtube</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header" data-position="fixed">
+		<h1>خريطة الجامعة</h1>
+	</div><!-- /header -->
+
+	<div id="containerme" data-role="content">
+
+	</div><!-- /content -->
+	
+	<div data-position="fixed" data-role="footer" class="nav-glyphish-example">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="d">
+		<ul>
+			<li><a rel="external" href="index.html" id='main' class='folder' data-icon="custom">الرئيسية</a></li>
+			<li><a rel="external" href="youtube.html" id='youtube' class='youtube' data-icon="custom">يوتيوب</a></li>
+			<li><a rel="external" href="contact.html" id='contact' class='contact ui-btn-active ui-state-persist' data-icon="custom">عنواين الإتصال</a></li>
+			<li><a rel="external" href="news.html" id='news' class='globe' data-icon="custom">أخبار</a></li>
+			<li><a rel="external" href="info.html" id="info" class="info" data-icon="custom">عن البرنامج</a></li>
+		</ul>
+		</div>
+	</div>
+
+</div><!-- /page -->
+     <script>
+     	$(document).ready(function(){
+			
+			$("#main").click(function() {
+				$.mobile.changePage( "./index.html", {
+				  transition: "slideup",
+				  reverse: false,
+				  changeHash: false
+				});
+			});
+			$("#youtube").click(function() {
+				$.mobile.changePage( "./youtube.html", {
+				  transition: "slideup",
+				  reverse: false,
+				  changeHash: false
+				});
+			});
+			$("#contact").click(function() {
+				$.mobile.changePage( "./contact.html", {
+				  transition: "slideup",
+				  reverse: false,
+				  changeHash: false
+				});
+			});
+			$("#news").click(function() {
+				$.mobile.changePage( "./news.html", {
+				  transition: "slideup",
+				  reverse: false,
+				  changeHash: false
+				});
+			});
+			$("#info").click(function() {
+				$.mobile.changePage( "./info.html", {
+				  transition: "slideup",
+				  reverse: false,
+				  changeHash: false
+				});
+			});        
+			
+			$('<iframe src="https://mapsengine.google.com/map/embed?mid=zpywVOnIE8Q4.kz6tYlndG-DI" width="100%" height="300"></iframe>').appendTo('#containerme');
+		});
+     </script>
+</body>
+
+</html>

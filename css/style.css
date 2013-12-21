@@ -1,0 +1,9 @@
+.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+.youtube .ui-icon { background:  url(../img/youtube.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.folder .ui-icon { background:  url(../img/folder.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.info .ui-icon { background:  url(../img/info.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.maps .ui-icon { background:  url(../img/maps.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.globe .ui-icon { background:  url(../img/globe.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.contact .ui-icon { background:  url(../img/contact.png) 50% 50% no-repeat; background-size: 30px 30px; }
+.nav-glyphish-example ul li { width: 20% !important }
